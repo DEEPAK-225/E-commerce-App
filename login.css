@@ -1,0 +1,37 @@
+html{
+    box-sizing:border-box;
+}
+*,*::before,*::after{
+    box-sizing:inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.home-title{
+    font-size: 3.5rem;
+    margin-top: 5rem;
+    letter-spacing: 1rem;
+}
+.login-wrapper{
+    width:600px;
+    margin: 50px auto;
+}
+.login-wrapper .signup-btn{
+    cursor: pointer;
+    width: 300px;
+    margin: 20px auto;
+    padding: .4rem;
+}
+.login-wrapper .signup-btn:hover{
+    text-decoration: underline;
+}
+.input-group{
+    margin-bottom: 1.5rem;
+}
+.login-wrapper h4{
+    font-size: 2rem;
+    letter-spacing: 4px;
+}
